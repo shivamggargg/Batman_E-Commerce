@@ -71,7 +71,7 @@ h1{
 } 
 
 .banner{
-    background: url('../img/Batmanbanner.jpg');  
+    background: url('../img/batmanbanner.jpg');  
     /*since this file is inside css folder we will have to move out of css folder for accessing img Hence we use " .. " so that it moves one level up in folder structure that is batman folder*/
     background-size: cover;
     height: 500px
