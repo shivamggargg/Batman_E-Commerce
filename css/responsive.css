@@ -1,0 +1,30 @@
+/*===== these classes will be called only when screen size is less than 500 as specified in media query below ====*/
+@media only screen and (max-width:500px){
+	.container{
+		width: 95%;
+	}
+/*you can either hide navbar uncommenting the class given below */
+	/*nav{
+		display: none;
+	}*/
+	/*===============or make li 100% so it looks better===============*/
+	nav ul li{
+		width: 100%;
+	}
+	/* you can group article and nav ul li class for reducing the line of code*/
+	.article{
+		width: 100%;
+	}
+	.logo {
+		float: none; /*this is written so that the logo doesnt float outside header */
+	}
+	header{
+		text-align: center;
+		overflow: hidden;
+	}
+	.box{
+		width: auto;
+		margin: 20px;
+	}
+
+}
